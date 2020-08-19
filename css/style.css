@@ -58,17 +58,6 @@ input[type="radio"].visually-hidden{
 	background-repeat: no-repeat;
 	background-position: center top;
 }
-.button{
-  display: inline-block;
-  background-color: #e74a35;
-  color: #ffffff;
-  text-align: center;
-  vertical-align: middle;
-  background-image: linear-gradient( 90deg, rgb(231,74,53) 0%, rgb(242,104,67) 100%);
-  box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
-  text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
-
-}
 
 .site-navigation{
   font-size: 16px;
@@ -214,7 +203,8 @@ input[type="radio"].visually-hidden{
 
 /* слайдер конец */
 
-.raspberry h2{
+.raspberry h2,
+.chocolate h2{
   font-size: 35px;
   line-height: 41px;
 }
@@ -223,14 +213,109 @@ input[type="radio"].visually-hidden{
   font-size: 18px;
   line-height: 22px;
 }
+
+.button{
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: #e74a35;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  background-image: linear-gradient( to bottom,#f26843 0%,#e74a35 100%);
+  box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+  text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
+}
+
+
 .button-slide {
   box-sizing: border-box;
 	display: block;
-	border-radius: 40px;
-	padding-top: 8px;
+  border-radius: 40px;
+	padding-top: 9px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 23px;
 	width: 278px;
 	height: 63px;
+}
+
+.bonuses{
+  width: 560px;
+  min-height: 229px;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.bonuses h2{
+  padding-bottom: 20px;
+}
+.rasber-col{
+  box-sizing: border-box;
+  padding-right: 21px;
+  padding-left: 20px;
+  padding-top: 12px;
+  /* padding-bottom: 80px; */
+}
+
+.description{
+
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+
+}
+.raspberry{
+  background-color: #ce5778;
+  background-image: url("../img/rasber.png");
+
+
+}
+.raspberry .button{
+  width: 165px;
+  height: 46px;
+  border-radius: 20px;
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.chocolate{
+  background-color: #5e361d;
+  background-image: url("../img/chocolate.png");
+}
+.chocolate .button{
+  width: 189px;
+  height: 45px;
+  border-radius: 20px;
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.hits-list{
+  list-style: none;
+}
+
+.hits-list a{
+  color: #ffffff;
+}
+
+.hits-item .price{
+  font-size: 45px;
+  font-weight: 700;
+  text-shadow: 0px 1px 3px rgba(49, 50, 53, 0.5);
+  line-height: 45px;
+}
+
+.hits-item .kg{
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: 0px 1px 3px rgba(49, 50, 53, 0.5);
+  line-height: 45px;
+}
+.features{
+  background-image: url("../")
 }
