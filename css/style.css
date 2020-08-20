@@ -203,17 +203,6 @@ input[type="radio"].visually-hidden{
 
 /* слайдер конец */
 
-.raspberry h2,
-.chocolate h2{
-  font-size: 35px;
-  line-height: 41px;
-}
-
-.description-raspberry{
-  font-size: 18px;
-  line-height: 22px;
-}
-
 .button{
   box-sizing: border-box;
   display: inline-block;
@@ -240,30 +229,35 @@ input[type="radio"].visually-hidden{
 }
 
 .bonuses{
+  box-sizing: border-box;
+  position: relative;
   width: 560px;
   min-height: 229px;
+  padding: 16px 22px 23px 18px;
   border-radius: 15px;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 
 }
+.bonuses h2 {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-size: 35px;
+  line-height: 41px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
 
-.bonuses h2{
-  padding-bottom: 20px;
-}
-.rasber-col{
-  box-sizing: border-box;
-  padding-right: 21px;
-  padding-left: 20px;
-  padding-top: 12px;
-  /* padding-bottom: 80px; */
-}
 
 .description{
-
+  margin: 0;
+  padding: 0;
   font-size: 18px;
   line-height: 22px;
   font-weight: bold;
+  color: #ffffff;
 
 }
 .raspberry{
@@ -273,10 +267,14 @@ input[type="radio"].visually-hidden{
 
 }
 .raspberry .button{
+  position: absolute;
+
+  right: 20px;
+  bottom: 18px;
   width: 165px;
   height: 46px;
-  border-radius: 20px;
   padding-top: 10px;
+  border-radius: 20px;
   font-size: 18px;
   line-height: 24px;
   font-weight: bold;
@@ -286,8 +284,14 @@ input[type="radio"].visually-hidden{
   background-image: url("../img/chocolate.png");
 }
 .chocolate .button{
+  position: absolute;
+
+  right: 20px;
+  bottom: 18px;
+
   width: 189px;
   height: 45px;
+
   border-radius: 20px;
   padding-top: 10px;
   font-size: 18px;
@@ -317,5 +321,37 @@ input[type="radio"].visually-hidden{
   line-height: 45px;
 }
 .features{
-  background-image: url("../")
+  width: 1146px;
+  color: #000000;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #eee2cc;
+  background-image: url("../img/waffle.png")
+}
+.features-list{
+  list-style: none;
+}
+
+.features h2{
+  font-size: 24px;
+  line-height: 30px;
+}
+.news{
+  width: 560px;
+  min-height: 220px;
+  background-color: #ffffff;
+  color: #000000;
+}
+.news h2{
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.news a{
+  color: #000000;
+  text-decoration: underline;
+  font-size: 24px;
+  line-height: 30px;
 }
